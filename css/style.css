@@ -1,0 +1,150 @@
+h1{
+    font-weight: 900;
+    letter-spacing: 0.06em;
+}
+
+.hero {
+    max-width: 1600px;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 200px;
+    padding-bottom: 210px;
+    background-color: #2F303A;
+    text-align: center;
+}
+
+.hero-header {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    color: var(--header-bg-color);
+    background-color: #2F303A;
+}
+
+/* Кнопка */
+.button {
+    display: inline-block;
+    margin-top: 40px;
+    padding: 10px 32px;
+    border-radius: 4px;
+
+    background-color: var(--button-color);
+    color: var(--header-bg-color);
+    font-size: 16px;
+    line-height: 1.875;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+}
+
+/* Преимущества */
+.advantages {
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 94px;
+    padding-bottom: 0;
+}
+
+.advantages .container+.container {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.advantage {
+    
+    margin-bottom: 10px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase; 
+    text-align: left; 
+}
+
+.advantage-list {
+    display: flex;
+}
+
+.advantage-item {
+    width: calc((100%-90)/4);
+}
+
+.advantage-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+
+/* Чем мы занимаемся */
+.section-header {
+    margin-bottom: 50px;
+
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    font-weight: 700;
+    color: var(--header-text-color);
+    text-align: center;
+}
+
+.pictures {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Команда */
+.card-name {
+    display: block;
+    width: calc((100%-90px)/4);
+    text-align: center;
+    background-color: #fff;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.card-name:not(:last-child) {
+    margin-right: 30px;
+}
+
+.card-name>h3 {
+    margin-top: 30px;
+}
+
+.card-name>p {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+/* Персоннал */
+.personnel {
+    max-width: 1600px;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #F5F4FA;
+}
+
+.personnel .container {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.personnel-h {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.1875;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+
+.personnel-p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.1875;
+    color: var(--main-text-color);
+    letter-spacing: 0.03em;
+  
+}
+

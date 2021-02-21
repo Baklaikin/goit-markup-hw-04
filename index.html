@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Первое задание по верстке">
+        <meta name="author" content="Баклайкин Константин">
+        <title>Web Studio</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" 
+        integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg==" crossorigin="anonymous">
+        <link rel="stylesheet" href="./css/common.css">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="header">
+            <div class="container flex">
+                <nav class="navigation">
+                    <!-- Логотип -->
+                    <a href="/" class="header-link"><span class="logo">Web</span>Studio</a>
+                    <!-- Ссылки навигации по страницам сайта -->
+                    <ul class="nav-links">
+                        <li class="nav-item"><a href="" class="link current">Студия</a></li>
+                        <li class="nav-item"><a href="./portfolio.html" class="link">Портфолио</a></li>
+                        <li class="nav-item"><a href="" class="link">Контакты</a></li>
+                    </ul>
+                </nav>
+            
+
+                <!-- Телефон и почта -->
+                <ul class="contacts-links">
+                    <li class="contacts-item"><a href="mailto:info@devstudio.com" class="link color">info@devstudio.com</a></li>
+                    <li class="contacts-item"><a href="tel:+380961111111" class="link color">+38 096 111 11 11</a></li>
+                </ul>
+            </div>
+        </header>
+        <!-- Блок Герой -->
+       <main>
+            <section class="hero">
+                    <h1 class="hero-header">
+                        Эффективные решения<br> для вашего бизнеса
+                    </h1>
+                    <a href="" class="button">Заказать услугу</a>
+            </section>
+        
+        <!-- Преимущества и портфолио-->
+        <section class="advantages">
+            <h2 class="visually-hidden">Преимущества</h2>
+            <div class="container">
+                <ul class="advantage-list">
+                    <li class="advantage-item">
+                        <h3 class="advantage">Внимание к деталям</h3>
+                        <p class="advantage-p pcolor">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+                    </li>
+                    <li class="advantage-item">
+                        <h3 class="advantage">Пунктуальность</h3>
+                        <p class="advantage-p pcolor">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+                    </li>
+                    <li class="advantage-item">
+                        <h3 class="advantage">Планирование</h3>
+                        <p class="advantage-p pcolor">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+                    </li>
+                    <li class="advantage-item">
+                        <h3 class="advantage">Современные технологии</h3>
+                        <p class="advantage-p pcolor">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                    </li>
+                </ul>
+           </div>
+           <div class="container">
+            <h2 class="section-header">
+                Чем мы занимаемся
+            </h2>
+            
+                <ul class="pictures">
+                    <li class="items"><a href=""><img src="./images/keyboard.jpg" alt="набор текста на клавиатуре" max-width="370"></a></li>
+                    <li class="items"><a href=""><img src="./images/mobile.jpg" alt="держит мобильник в руке" max-width="370"></a></li>
+                    <li class="items"><a href=""><img src="./images/tablet.jpg" alt="держит планшет" max-width="370"></a></li>
+                </ul>
+            </div>
+        </section>
+        <!-- Команда -->
+        <section class="personnel">
+            <div class="container">
+                <h2 class="section-header">Наша команда</h2>
+                
+                <ul class="flex">
+                    <li class="card-name">
+                        <img src="./images/glassman.jpg" alt="мужчина в очках улыбается" width="270">
+                        <h3 class="personnel-h">Игорь Демьяненко</h3>
+                        <p class="personnel-p">Product Designer</p>
+                    
+                    </li>
+                    <li class="card-name">
+                        <img src="./images/glassgirl.jpg" alt="девушка в очках улыбается" width="270">
+                        <h3 class="personnel-h">Ольга Репина</h3>
+                        <p class="personnel-p">Frontend Developer</p>
+                    </li>
+                    
+                    <li class="card-name">
+                        <img src="./images/noglasses.jpg" alt="парень улыбается" width="270">
+                        <h3 class="personnel-h">Николай Тарасов</h3>
+                        <p class="personnel-p">Marketing</p>
+                    </li>
+                
+                    <li class="card-name">
+                        <img src="./images/blacktshirt.jpg" alt="парень в черной футболке улыбается" width="270">
+                        <h3 class="personnel-h">Михаил Ермаков</h3>
+                        <p class="personnel-p">UI Designer</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+       </main>
+        <footer class="footer">
+            <div class="container">
+                <a href="/" class="header-link f-logo"><span class="logo">Web</span>Studio</a>
+                <address class="advantage-p fcolor">
+                    <p>г. Киев, пр-т Леси Украинки, 26</p>
+                    <ul class="footer-contacts">
+                        <li class="footer-item"><a href="mailto:info@example.com" class="footer-links">info@example.com</a></li>
+                        <li class="footer-item"><a href="tel:+380991111111" class="footer-links">+38 099 111 11 11</a></li>
+                    </ul> 
+                </address>
+            </div>
+        </footer>
+    </body>
+</html>
